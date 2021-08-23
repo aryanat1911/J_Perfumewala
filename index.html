@@ -393,6 +393,14 @@
         }
       });
 
+      $(function () {
+        var navMain = $(".navbar-collapse");
+
+        navMain.on("click", "a", null, function () {
+          navMain.collapse('hide');
+        });
+      });
+
       var quotes = new Typed('.quote', {
         strings: ["The best perfumes in the planet",
           "Fragrance leads to attractiveness",

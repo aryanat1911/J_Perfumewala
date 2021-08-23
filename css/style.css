@@ -5,6 +5,10 @@
 * Browsers: last 4 version
 */
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f1f4f8;
 }
